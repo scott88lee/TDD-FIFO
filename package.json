@@ -1,0 +1,23 @@
+{
+  "name": "TDD-starter",
+  "version": "1.0.0",
+  "description": "Basic index.js file, with testing library JEST.",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scott88lee/TDD-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scott88lee/TDD-starter/issues"
+  },
+  "homepage": "https://github.com/scott88lee/TDD-starter#readme",
+  "dependencies": {
+    "jest": "^25.5.0"
+  }
+}
