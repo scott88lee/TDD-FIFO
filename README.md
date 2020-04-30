@@ -16,15 +16,17 @@ const answerSet = [
 ```
 
 ##### To calculate inventory holdings;
-Functions accepts a date and outputs total quantity of goods in stock at point in time ( using array index 0 to 8 )
+Write a function that accepts a date(using array index) and outputs total quantity of goods in stock at point in time.
 
 ##### To calculate inventory value;
-Functions accepts a date and outputs the total value of goods in stock at point in time ( using array index 0 to 8 )
+Write a function that accepts a date(using array index) and outputs the total value of goods in stock at point in time.
 
 ##### To calculate COGS;
-Functions accepts a date and outputs the cost of goods sold at point in time.
-Advance objective: accept a date range, and outputs COGS. ( using array index 0 to 8 )
+Write a function that accepts a date and outputs the cost of goods sold at point in time.
+Advance objective: accept a date range, and outputs COGS.
 
 ##### To calculate Profit;
-Functions accepts a date range and outputs the profict at point in time. ( using array index 0 to 8 )
+Write a function that accepts a date range and outputs the profict at point in time.
+
+Note: Using array index, for eg. (0,3) or (2,8) for date range.
 
