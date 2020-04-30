@@ -1,15 +1,3 @@
-const dataSet = [
-  {action: 'buy', qty: 5, price: 10 },
-  {action: 'sell', qty: 5, price: 10 },
-  {action: 'buy', qty: 10, price: 10 },
-  {action: 'buy', qty: 10, price: 11 },
-  {action: 'sell', qty: 15, price: 20 },
-  {action: 'buy', qty: 10, price: 12 },
-  {action: 'sell', qty: 6, price: 20 },
-  {action: 'buy', qty: 10, price: 10 },
-  {action: 'sell', qty: 10, price: 20 },
-];
-
 function totalQty(arr, date) {
   let total = 0;
 
@@ -21,7 +9,7 @@ function totalQty(arr, date) {
       total -= arr[i].qty;
     }
   }
-  return total
+  return total;
 }
 
 function invValue(arr, date) {
@@ -56,6 +44,5 @@ function invValue(arr, date) {
   return invValue;
 }
 
-invValue(dataSet, 8); 
 
 module.exports = { totalQty, invValue }
