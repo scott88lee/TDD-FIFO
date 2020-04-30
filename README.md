@@ -16,10 +16,10 @@ const answerSet = [
 ```
 
 ##### To calculate inventory holdings;
-Functions accepts a date and outputs the quantity of total quantity of goods in stock at point in time ( using array index 0 to 8 )
+Functions accepts a date and outputs total quantity of goods in stock at point in time ( using array index 0 to 8 )
 
 ##### To calculate inventory value;
-Functions accepts a date and outputs the quantity of total value of goods in stock at point in time ( using array index 0 to 8 )
+Functions accepts a date and outputs the total value of goods in stock at point in time ( using array index 0 to 8 )
 
 ##### To calculate COGS;
 Functions accepts a date and outputs the cost of goods sold at point in time.
