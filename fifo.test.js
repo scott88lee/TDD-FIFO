@@ -25,11 +25,11 @@ const answerSet = [
 ];
 
 //Objective 3
-describe('Checking total quantity', () => {
-  test('First DataSet at every index', ()=> {
-    expect(fifo.totalQty(dataSet, i)).toBe(answerSet[i].totalQty)
-  })
-})
+// describe('Checking total quantity', () => {
+//   test('First DataSet at every index', ()=> {
+//     expect(fifo.totalQty(dataSet, i)).toBe(answerSet[i].totalQty)
+//   })
+// })
 
 //Objective 1 done.
 describe('Checking total quantity', () => {
