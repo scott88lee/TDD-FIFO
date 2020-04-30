@@ -24,7 +24,12 @@ const answerSet = [
   {action: 'sell', qty: 10, price: 20, totalQty: 9, invValue: 90, cogs: 106}
 ];
 
-
+//Objective 3
+describe('Checking total quantity', () => {
+  test('First DataSet at every index', ()=> {
+    expect(fifo.totalQty(dataSet, i)).toBe(answerSet[i].totalQty)
+  })
+})
 
 //Objective 1 done.
 describe('Checking total quantity', () => {
@@ -37,12 +42,9 @@ describe('Checking total quantity', () => {
 
 // Objective 2 done
 describe('Objective 2: Value of inventory', () => {
-  let i;
   test('First DataSet at Every index', ()=> {
     for (let i=0; i<dataSet.length; i++){
       expect(fifo.invValue(dataSet, i)).toBe(answerSet[i].invValue)
     }
   })
 });
-
-//Objective 3
